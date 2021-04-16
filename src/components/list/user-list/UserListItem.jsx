@@ -19,7 +19,11 @@ function UserListItem({ user }) {
         user.completed ? 'list-group-item-primary' : ''
       }`}
       onClick={() => onUserUpdate(user)}>
-      Name:{user.name}   Username:{user.username}   Email:{user.email}  Phone:{user.phone}  Website:{user.website}      
+      Name: {user.name} <br></br>
+      Username: {user.username} <br></br>
+      Email: {user.email}<br></br>
+      Phone: {user.phone}<br></br>
+      Website: {user.website}
     </div>
   );
 }

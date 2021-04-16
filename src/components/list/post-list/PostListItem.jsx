@@ -20,7 +20,9 @@ function PostListItem({ post }) {
         post.completed ? 'list-group-item-primary' : ''
       }`}
       onClick={() => onPostUpdate(post)}>
-      Title:{post.title}    Body:{post.body}  
+      Title: {post.title} <br></br>
+      Body: {post.body} 
+      
     </div>
   );
 }
