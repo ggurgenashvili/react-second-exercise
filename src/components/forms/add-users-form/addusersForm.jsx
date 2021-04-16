@@ -24,7 +24,7 @@ function AddUserForm(props) {
       website,
       id: Math.random().toString(),
     });
-    setName('')
+    setName('');
     setUsername('');
     setEmail('');
     setPhone('');
@@ -109,4 +109,4 @@ function AddUserForm(props) {
   );
 }
 
-export default AddUserForm;;
+export default AddUserForm;

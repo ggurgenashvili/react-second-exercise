@@ -1,9 +1,6 @@
 import { useContext, useEffect } from 'react';
 import API_SERVICE from '../../../services/users-api';
 import '../../ui/list.css'
-
-
-
 import { UserProvider } from '../../providers/UserProvider';
 
 function UserListItem({ user }) {

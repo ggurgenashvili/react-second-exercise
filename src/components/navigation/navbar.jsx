@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "../ui/navbar.css"
 
 const Navigation = ({ onPageChange, pages }) => {
   return (
